@@ -106,22 +106,6 @@ curl -X POST http://localhost:5002/predict -H "Content-Type: application/json" -
 
 - \`prediction\`: The prediction result (e.g., 1 for approved, 0 for rejected).
 
-## Troubleshooting
-
-### Common Issues
-
-- **Model Not Loaded Correctly**: Ensure the model file is correctly saved and the versions of the libraries used are consistent.
-- **Port Conflicts**: Ensure the specified port (5002) is not used by another application.
-
-### Logs
-
-Check the Docker container logs for more information:
-
-\`\`\`bash
-docker logs <container_id>
-\`\`\`
-
-Replace \`<container_id>\` with the ID of your running container.
 
 
 
