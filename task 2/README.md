@@ -93,7 +93,7 @@ curl -X POST http://localhost:5002/predict -H "Content-Type: application/json" -
     "log_loan_amount": 1469444.444,
     "loan_term_income_to_loan_ratio": 3.853,
     "loan_to_asset_annual_loan_payment": 399520000000000,
-    "luxury_commercial_assets_value": 100000
+    "luxury_commercial_assets_value": 10000
 
 }'
 \`\`\`
